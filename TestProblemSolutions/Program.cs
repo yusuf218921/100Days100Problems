@@ -1,5 +1,7 @@
 ﻿using ProblemSolutions.Day1_PascalTriangle;
 using ProblemSolutions.Day2_BirthdayProblem;
+using ProblemSolutions.Day3_CollatzConjecture;
+using System.Numerics;
 
 namespace TestProblemSolutions
 {
@@ -8,15 +10,31 @@ namespace TestProblemSolutions
         static void Main(string[] args)
         {
             /* Day 1 Pascal Triangle Test
+            
             PascalTriangle pascalTriangle = new PascalTriangle(12);
             pascalTriangle.PascalTriangleWrite();
+            
             */
 
             /* Day 2 BirthdayProblem Test
+            
             in a random group of 23 people, there is about a 50 percent chance that two people have the same birthday.
+            
             BirthdayProblem birthdayProblem = new BirthdayProblem();
             Console.WriteLine(birthdayProblem.calculateProbility(23));
+            
             */
+
+            /* Day 3 Collatz Conjectures 
+            
+            The Collatz conjecture asserts that the total stopping time of every n is finite. 
+            It is also equivalent to saying that every n ≥ 2 has a finite stopping time.
+            
+            CollatzConjectures collatzConjectures = new CollatzConjectures();
+            collatzConjectures.Run(68746845313265485213232m);
+            
+            */
+
         }
     }
 }
