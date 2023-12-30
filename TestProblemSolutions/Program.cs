@@ -1,6 +1,7 @@
 ﻿using ProblemSolutions.Day1_PascalTriangle;
 using ProblemSolutions.Day2_BirthdayProblem;
 using ProblemSolutions.Day3_CollatzConjecture;
+using ProblemSolutions.Day4_FindDublicate;
 using System.Numerics;
 
 namespace TestProblemSolutions
@@ -25,7 +26,7 @@ namespace TestProblemSolutions
             
             */
 
-            /* Day 3 Collatz Conjectures 
+            /* Day 3 Collatz Conjectures Test
             
             The Collatz conjecture asserts that the total stopping time of every n is finite. 
             It is also equivalent to saying that every n ≥ 2 has a finite stopping time.
@@ -34,6 +35,11 @@ namespace TestProblemSolutions
             collatzConjectures.Run(68746845313265485213232m);
             
             */
+
+            /* Day 4 FindDublicate Test */
+
+            FindDublicate findDublicate = new FindDublicate();
+            findDublicate.Run("abaccddalwfelkasdf");
 
         }
     }
