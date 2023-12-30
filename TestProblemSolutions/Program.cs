@@ -2,6 +2,7 @@
 using ProblemSolutions.Day2_BirthdayProblem;
 using ProblemSolutions.Day3_CollatzConjecture;
 using ProblemSolutions.Day4_FindDublicate;
+using ProblemSolutions.Day5_PolindromString;
 using System.Numerics;
 
 namespace TestProblemSolutions
@@ -36,10 +37,19 @@ namespace TestProblemSolutions
             
             */
 
-            /* Day 4 FindDublicate Test */
+            /* Day 4 FindDublicate Test 
 
             FindDublicate findDublicate = new FindDublicate();
             findDublicate.Run("abaccddalwfelkasdf");
+
+            */
+
+            /* Day 5 PolindromString Test 
+
+            PolindromString polindromString = new PolindromString();
+            polindromString.Run("Ama");
+
+            */
 
         }
     }
