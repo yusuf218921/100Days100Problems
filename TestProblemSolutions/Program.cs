@@ -5,6 +5,7 @@ using ProblemSolutions.Day4_FindDublicate;
 using ProblemSolutions.Day5_PolindromString;
 using ProblemSolutions.Day6_EulerNumber;
 using ProblemSolutions.Day7_PiNumber;
+using ProblemSolutions.Day8_PrisonersProblem;
 using System.Numerics;
 
 namespace TestProblemSolutions
@@ -70,6 +71,33 @@ namespace TestProblemSolutions
             PiNumberCalculator calculator = new PiNumberCalculator();
             calculator.Run(10000000000)
 
+            */
+
+            /* Day 8 100 Prisoners Problem
+            
+            A sadistic prison warden runs a prison 
+            with 100 prisoners (numbered 1 through 100). 
+            He decides to force them to play the following game. 
+            The warden lines up 100 boxes in a room, and places a 
+            random permutation of the numbers 1 through 100 in the boxes. 
+            Each prisoner enters the room and is allowed to open 50 boxes. 
+            If the prisoner’s number is in one of the opened boxes, then the 
+            prisoner wins the game. Here’s the catch: In order for the prisoners 
+            to be set free, all of the prisoners have to win the game.
+
+            int count = 0;
+            for(int i = 0; i < 1000; i++)
+            {
+                PrisonerProblem problem = new PrisonerProblem();
+                if(problem.Run())
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine((double)count/1000);
+
+            Probility = 0.31....
+            
             */
 
         }
