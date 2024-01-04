@@ -6,6 +6,7 @@ using ProblemSolutions.Day5_PolindromString;
 using ProblemSolutions.Day6_EulerNumber;
 using ProblemSolutions.Day7_PiNumber;
 using ProblemSolutions.Day8_PrisonersProblem;
+using ProblemSolutions.Day9_Singleton;
 using System.Numerics;
 
 namespace TestProblemSolutions
@@ -99,6 +100,27 @@ namespace TestProblemSolutions
             Probility = 0.31....
             
             */
+
+            /* Day 9 Singleton */
+            SingletonExample ex = Singleton<SingletonExample>.Instance;
+
+            SingletonExample ex2 = Singleton<SingletonExample>.Instance;
+
+            SingletonExample ex3 = Singleton<SingletonExample>.Instance;
+            ex.Message = "abc";
+
+            ex.Run();
+            ex2.Run();
+            ex3.Run();
+            
+            if(ex == ex2 && ex3 == ex2)
+            {
+                Console.WriteLine("Single Instance");
+            }
+            else
+            {
+                Console.WriteLine("Not single instance");
+            }
 
         }
     }
