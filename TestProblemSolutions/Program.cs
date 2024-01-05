@@ -1,4 +1,5 @@
 ﻿using ProblemSolutions.Day1_PascalTriangle;
+using ProblemSolutions.Day10_Factory;
 using ProblemSolutions.Day2_BirthdayProblem;
 using ProblemSolutions.Day3_CollatzConjecture;
 using ProblemSolutions.Day4_FindDublicate;
@@ -101,7 +102,7 @@ namespace TestProblemSolutions
             
             */
 
-            /* Day 9 Singleton */
+            /* Day 9 Singleton 
             SingletonExample ex = Singleton<SingletonExample>.Instance;
 
             SingletonExample ex2 = Singleton<SingletonExample>.Instance;
@@ -121,6 +122,19 @@ namespace TestProblemSolutions
             {
                 Console.WriteLine("Not single instance");
             }
+            */
+
+            /*Day 10 Factory 
+
+            IExample ex1 = Factory<IExample, FactoryExample1>.Instance;
+            IExample ex2 = Factory<IExample, FactoryExample2>.Instance;
+            ex1.Run();
+            ex2.Run();
+
+            IExample ex3 = Factory<IExample, SingletonExample>.AddSingleton();
+            ex3.Run();
+
+            */
 
         }
     }
