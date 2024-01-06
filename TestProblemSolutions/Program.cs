@@ -1,5 +1,6 @@
 ﻿using ProblemSolutions.Day1_PascalTriangle;
 using ProblemSolutions.Day10_Factory;
+using ProblemSolutions.Day11_PrimeCalculator;
 using ProblemSolutions.Day2_BirthdayProblem;
 using ProblemSolutions.Day3_CollatzConjecture;
 using ProblemSolutions.Day4_FindDublicate;
@@ -135,6 +136,28 @@ namespace TestProblemSolutions
             ex3.Run();
 
             */
+
+            /* Day 11 PrimeCalculator 
+            There is a rule that says that any multiple of 6, 
+            one more or one less, is a prime number. Lets test it -> false
+
+            PrimeCalculator calculator  = new PrimeCalculator();
+            calculator.Run(1000);
+            PrimeCalculator calculator = new PrimeCalculator();
+            calculator.RunLimit(100);
+
+            There is a rule that says all prime numbers are one more or one 
+            less than a multiple of 6.Lets test it -> true 
+
+            PrimeCalculator calculator = new PrimeCalculator();
+            calculator.RunLimit2(10000000);
+
+
+            */
+
+
+
+
 
         }
     }
