@@ -155,9 +155,9 @@ namespace TestProblemSolutions
 
 
             */
-
-            TermSplit split = new TermSplit();
-            split.Run(" (5 + 3)*2 + 25 - 3*5 + (24 + 3) * 2");
+            //Day12 TermSplit (Failed 07/01/2024)
+            //TermSplit split = new TermSplit();
+            //split.Run(" (5 + 3)*2 + 25 - 3*5 + (24 + 3) * 2");
 
 
 
