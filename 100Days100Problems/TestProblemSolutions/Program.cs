@@ -1,6 +1,7 @@
 ﻿using ProblemSolutions.Day1_PascalTriangle;
 using ProblemSolutions.Day10_Factory;
 using ProblemSolutions.Day11_PrimeCalculator;
+using ProblemSolutions.Day12_TermSplit;
 using ProblemSolutions.Day2_BirthdayProblem;
 using ProblemSolutions.Day3_CollatzConjecture;
 using ProblemSolutions.Day4_FindDublicate;
@@ -155,7 +156,8 @@ namespace TestProblemSolutions
 
             */
 
-
+            TermSplit split = new TermSplit();
+            split.Run(" (5 + 3)*2 + 25 - 3*5 + (24 + 3) * 2");
 
 
 
