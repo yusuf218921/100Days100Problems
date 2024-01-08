@@ -1,4 +1,6 @@
-﻿namespace TestProblemSolutions
+﻿using ProblemSolutions.Day14_ReverseOrNot;
+
+namespace TestProblemSolutions
 {
     internal class Program
     {
@@ -150,6 +152,14 @@
 
             ArrayOfMultiples array = new ArrayOfMultiples();
             array.Run(8, 28);
+            */
+
+            /* Day14 ReverseAndNot 
+             * https://edabit.com/challenges/csharp
+
+            ReverseOrNot reverseOrNot = new ReverseOrNot();
+            reverseOrNot.Run(123456);
+
             */
 
         }
