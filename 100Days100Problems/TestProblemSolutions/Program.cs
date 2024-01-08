@@ -1,18 +1,4 @@
-﻿using ProblemSolutions.Day1_PascalTriangle;
-using ProblemSolutions.Day10_Factory;
-using ProblemSolutions.Day11_PrimeCalculator;
-using ProblemSolutions.Day12_TermSplit;
-using ProblemSolutions.Day2_BirthdayProblem;
-using ProblemSolutions.Day3_CollatzConjecture;
-using ProblemSolutions.Day4_FindDublicate;
-using ProblemSolutions.Day5_PolindromString;
-using ProblemSolutions.Day6_EulerNumber;
-using ProblemSolutions.Day7_PiNumber;
-using ProblemSolutions.Day8_PrisonersProblem;
-using ProblemSolutions.Day9_Singleton;
-using System.Numerics;
-
-namespace TestProblemSolutions
+﻿namespace TestProblemSolutions
 {
     internal class Program
     {
@@ -27,19 +13,19 @@ namespace TestProblemSolutions
 
 
             /* Day 2 Birthday Problem
-            
+
             BirthdayProblem birthdayProblem = new BirthdayProblem();
             Console.WriteLine(birthdayProblem.calculateProbility(23));
-            
+
             */
 
 
 
             /* Day 3 Collatz Conjectures
-            
+
             CollatzConjectures collatzConjectures = new CollatzConjectures();
             collatzConjectures.Run(35132132183271834567634532m);
-            
+
             */
 
 
@@ -68,7 +54,7 @@ namespace TestProblemSolutions
             */
 
             /* Day 7 PiNumber Calculator 
-            
+
             pi = 4 * ((-1)^n) / (2n+1)   n=0 n -> infinity
             pi = 3,141592653589793
 
@@ -78,7 +64,7 @@ namespace TestProblemSolutions
             */
 
             /* Day 8 100 Prisoners Problem
-            
+
             A sadistic prison warden runs a prison 
             with 100 prisoners (numbered 1 through 100). 
             He decides to force them to play the following game. 
@@ -101,7 +87,7 @@ namespace TestProblemSolutions
             Console.WriteLine((double)count/1000);
 
             Probility = 0.31....
-            
+
             */
 
             /* Day 9 Singleton 
@@ -115,7 +101,7 @@ namespace TestProblemSolutions
             ex.Run();
             ex2.Run();
             ex3.Run();
-            
+
             if(ex == ex2 && ex3 == ex2)
             {
                 Console.WriteLine("Single Instance");
@@ -159,7 +145,12 @@ namespace TestProblemSolutions
             //TermSplit split = new TermSplit();
             //split.Run(" (5 + 3)*2 + 25 - 3*5 + (24 + 3) * 2");
 
+            /* Day13 Array of Multiples 
+             * https://edabit.com/challenges/csharp
 
+            ArrayOfMultiples array = new ArrayOfMultiples();
+            array.Run(8, 28);
+            */
 
         }
     }
