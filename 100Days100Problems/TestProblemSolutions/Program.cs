@@ -1,4 +1,5 @@
 ﻿using ProblemSolutions.Day14_ReverseOrNot;
+using ProblemSolutions.Day15_Arrow;
 
 namespace TestProblemSolutions
 {
@@ -161,6 +162,13 @@ namespace TestProblemSolutions
             reverseOrNot.Run(123456);
 
             */
+
+            /* Day15 Arrow */
+            Arrow arrow = new Arrow();
+            foreach(string str in arrow.ArrowRun(5))
+            {
+                Console.WriteLine(str);
+            }
 
         }
     }
